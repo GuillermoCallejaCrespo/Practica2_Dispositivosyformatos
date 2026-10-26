@@ -15,7 +15,7 @@ El jugador comienza en primera persona y, al acercarse a la máquina, toma su co
 | Lanzador (`lanzador`) | Flecha arriba |
 | Reiniciar (`reiniciar`) | R |
 
-Los controles de teclado están implementados mediante `IMC_pinball`. Las asignaciones para otros dispositivos quedan pendientes de configurar y probar.
+Los controles de teclado están implementados mediante `IMC_pinball`.
 
 ## 2. Configuración física de la bola
 
