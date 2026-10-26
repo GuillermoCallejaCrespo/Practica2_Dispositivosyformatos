@@ -59,9 +59,14 @@ Los controles de teclado están implementados mediante `IMC_pinball`.
 
 **Reinicio manual de la bola:** permite devolver la bola al carril de salida sin tener que reiniciar la partida. El sistema desactiva temporalmente la simulación física, reposiciona la bola y vuelve a activarla.
 
-**Corrección de la masa de la bola, de 0,5kg a 0,4kg para que los flippers lograran darla más velocidad.
+**Corrección de la masa de la bola:** de 0,5kg a 0,4kg para que los flippers lograran darla más velocidad.
 
-No se han añadido todavía efectos audiovisuales personalizados adicionales.
+**Feedback visual del marcador:** Se ha implementado un sistema que cambia temporalmente el color del marcador al conseguir puntos. Para ello se ha creado la función DestelloMarcador, que activa el cambio de color y utiliza un temporizador para devolverlo a su estado original.
+
+**Efectos sonoros:** Se ha añadido un sonido que se reproduce cada vez que el jugador consigue puntuación, tanto al golpear los bouncers como al interactuar con las dianas y las gomas. Esto permite mejorar la respuesta del juego ante las acciones del jugador.
+
+**Ambientación del escenario:** Se ha ampliado la decoración del entorno incorporando máquinas recreativas adicionales para crear una sala arcade más completa y mejorar la presentación visual de la experiencia.
+
 
 ## 5. Ejecución
 
