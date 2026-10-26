@@ -8,12 +8,12 @@ El jugador comienza en primera persona y, al acercarse a la máquina, toma su co
 
 ## 1. Controles
 
-| Acción | Teclado | Controlador USB arcade | Mando XInput |
-|---|---|---|---|
-| Flipper izquierdo (`blipper_izqd`) | Flecha izquierda | Pendiente | Pendiente |
-| Flipper derecho (`blipper_dcha`) | Flecha derecha | Pendiente | Pendiente |
-| Lanzador (`lanzador`) | Flecha arriba | Pendiente | Pendiente |
-| Reiniciar (`reiniciar`) | R | Pendiente | Pendiente |
+| Acción | Teclado | 
+|---|---|
+| Flipper izquierdo (`blipper_izqd`) | Flecha izquierda |
+| Flipper derecho (`blipper_dcha`) | Flecha derecha |
+| Lanzador (`lanzador`) | Flecha arriba |
+| Reiniciar (`reiniciar`) | R |
 
 Los controles de teclado están implementados mediante `IMC_pinball`. Las asignaciones para otros dispositivos quedan pendientes de configurar y probar.
 
@@ -23,7 +23,7 @@ Los controles de teclado están implementados mediante `IMC_pinball`. Las asigna
 |---|---|
 | Escala de la esfera | 0.025 |
 | Simulate Physics | Activado |
-| Mass | 0.5 kg |
+| Mass | 0.4 kg |
 | Linear Damping | 0.01 |
 | Angular Damping | 0.0 |
 | Collision Presets | PhysicsActor |
